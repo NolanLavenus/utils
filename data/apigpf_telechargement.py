@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Functions
-from utils import structure_data, db_connect, sql_export
+from data.functions import structure_data, db_connect, sql_export
 # Variables
-from utils import output
+from data.functions import output
 
 geopf_url = "https://data.geopf.fr/telechargement/capabilities?limit=10"
 

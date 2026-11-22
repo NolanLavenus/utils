@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Functions
-from utils import api_diffusion_structure_data, db_connect, sql_export
+from data.functions import api_diffusion_structure_data, db_connect, sql_export
 
 apigpf_diffusion = "https://data.geopf.fr/wfs/ows?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities"
 
